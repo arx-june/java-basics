@@ -1,7 +1,7 @@
 // Example of Polymorphism in Java
 
 class Shape {
-    void draw() {
+    abstract void draw() {
         System.out.println("Drawing a shape");
     }
 }
